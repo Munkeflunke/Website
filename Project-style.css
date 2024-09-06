@@ -128,5 +128,6 @@ body, html {
 
 .footer {
     background-color: #fa5700;
-    padding-top: 40px;
+    padding: 20px;
+    text-align: center;
 }
