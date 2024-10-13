@@ -47,6 +47,7 @@ function enableDarkMode() {
     changeLinkTextColors("purple"); // Sæt farve for alle links til lilla
     changeSectionBackgrounds("#000"); // Sæt sektionernes baggrund til sort
 
+
     modeToggleButton.textContent = "Light Mode"; // Ændr knapteksten til "Light Mode"
 }
 
