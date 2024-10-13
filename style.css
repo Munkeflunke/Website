@@ -4,7 +4,9 @@ body, html {
     font-family: "Times New Roman", sans-serif;
     background-color: white;
     background-repeat: no-repeat;
+    transition: background-color 1.2s ease-in-out, color 0.900s ease-in-out, border 0.8s ease-in-out  ;
 }
+
 .fun{
     color: red;
 }
@@ -97,6 +99,24 @@ body, html {
     transform: scale(101%);
     transition-duration: 0.35s;
 }
+
+.darkModeButton {
+    background-color: black;
+    color: purple;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.7s ease, color 0.7s ease;
+}
+
+
+.darkModeButton:hover {
+    background-color: purple;
+    color: black;
+    border: 2px solid purple;
+}
+
 
 .h1 {
     display:flex;
